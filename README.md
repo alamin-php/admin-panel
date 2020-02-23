@@ -29,6 +29,9 @@ It's just like any other Laravel project. Basically here is how you use it for y
 * Clone the repo ` git clone https://github.com/alamin-php/admin-panel.git `
 * `cd ` to project folder. 
 * Run ` composer install `
+* If you have linux system you can execute the command below only in your project root
+* 1) `sudo chmod -R 777 install.sh`
+* 2) `./install.sh`
 * Save as the `.env.example` to `.env` and set your database information 
 * Run ` php artisan key:generate` to generate the app key
 * Run ` npm install ` 
